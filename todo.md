@@ -4,6 +4,6 @@
 [x] view
 
 **CONTACT**
-[ ] route
-[ ] controller action
-[ ] view
+[x] route
+[x] controller action
+[x] view

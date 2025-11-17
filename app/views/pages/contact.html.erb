@@ -1,0 +1,14 @@
+<h1>Contact</h1>
+<h2>Meet our team</h2>
+
+<form action="/contact">
+  <label for="member">Who are you looking for?</label>
+  <input type="text" id="member" name="member" placeholder="e.g. John Smith" value="<%= @query %>">
+  <input type="submit" value="Search">
+</form>
+
+<ul>
+    <% @members.each do |member| %>
+        <li><%= member.capitalize() %></li>
+    <% end %>
+</ul>

@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   # verb (localhost:3000)"/path", to: "controller#action"
   get "about", to: "pages#about"
+
+  # localhost:3000/contact
+  get "contact", to: "pages#contact"
 end
